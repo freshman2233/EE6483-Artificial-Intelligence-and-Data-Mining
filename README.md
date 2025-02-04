@@ -1,25 +1,72 @@
 # EE6483 Artificial Intelligence and Data Mining
-## 1.Note
+# 1.**Course Aims**
 
-EE6483 人工智能与数据挖掘
+This course introduces the fundamental theory and concepts of **Artificial intelligence (AI)** and **Data Mining** methods, in particular **state space representation** and **search strategies, association rule mining, supervised learning, classifiers, neural networks, unsupervised learning, clustering analysis**, and their applications in the area of Artificial Intelligence and Data Mining. This can be summarized as: 
 
-上课时间：周四1830-2120
+1. To understand the concepts of knowledge representation for state space search, strategies for the search. 
 
-上课地点：LT27
+2. To understand the basics of a data mining paradigm known as Association Rule Mining and its application to knowledge discovery problems. 
 
-家庭作业（5%*2）：两次家庭作业
+3. To understand the fundamental theory and concepts of supervised learning, unsupervised learning, neural networks, several learning paradigms and its applications
 
-测验（10%）：2月13日，week5
+# 2.Intended Learning Outcomes (ILO)
 
-项目（20%）：2月27日-4月10日，week7-week13
+Upon completion of this course, students should be able to :
 
-期末考试（60%）：5月7日9-11
+1. Demonstrate and Explain the use of state representation of problems, and strategies for the 3
 
-小组迷你项目：每组3个人，2小时（限制开放）
+search
 
-实验室讨论/助教问答： 由一名助教进行，地点和时间待定。 
+2. Discuss and Illustrate the concepts of state space search algorithms 
+3. Discuss and Illustrate the concepts of heuristic search algorithms
+4. Explain basic data mining concepts/algorithms for association rule mining 
+5. Explain the basics of machine learning models and algorithms
+6. Apply the fundamental theory and concepts of data mining and AI for wide range of data 
 
-## 2.Content
+analysis including association, classification, clustering, prediction.
+
+# 3.Course Content
+
+Structures and Strategies for State Space Representation & Search. 
+
+Heuristic Search. 
+
+Data Mining Concepts and Algorithms. 
+
+Classification and Prediction methods. 
+
+Unsupervised Learning and Clustering Analysis.
+
+# 4.Reading and References
+
+## 4.1Textbooks
+
+1. Luger George F, Artificial Intelligence : Structures and Strategies for Complex Problem Solving, 
+
+6 th Edition, Addison-Wesley, 2009. (Q335.L951)
+
+2. Pang-Ning Tan, Michael Steinbach, Vipin Kumar, Introduction to Data Mining: Pearson 2nd Edition, 
+
+2019.
+
+3. Ian Goodfellow, Yoshua Bengio and Aaron Courville, Deep Learning, MIT Press, 2016. ISBN: 978-
+
+0262035613 (Q325.5.G651)
+
+## 4.2 References
+
+1. Jiawei Han, Micheline Kamber and Jian Pei, Data Mining: Concepts and Techniques, 3rd Edition, 
+
+Morgan Kaufmann, 2011, ISBN: 978-0-12-381479-1.
+
+2. S. Russell and P. Norvig, Artificial Intelligence -A Modern Approach, 4th Edition, Prentice Hall, 
+3. 
+4. Kevin P. Murphy, Probabilistic Machine Learning- An Introduction, The MIT Press, 2022.
+5. Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, 2006
+
+
+
+# 5.Content in Chinese
 
 ### Dr. CHEN Lihui
 
@@ -244,3 +291,13 @@ EE6483 人工智能与数据挖掘
 
 6.稀疏编码 不考
 
+# 6.Disclaimer
+
+All content in this  is based solely on the contributors' personal work, Internet data.
+All tips are for reference only and are not guaranteed to be 100% correct.
+If you have any questions, please submit an Issue or PR.
+In addition, if it infringes your copyright, please contact us to delete it, thank you.
+
+
+
+#### Copyright © School of Electrical & Electronic Engineering, Nanyang Technological University. All rights reserved.
