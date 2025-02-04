@@ -60,8 +60,7 @@ Unsupervised Learning and Clustering Analysis.
 Morgan Kaufmann, 2011, ISBN: 978-0-12-381479-1.
 
 2. S. Russell and P. Norvig, Artificial Intelligence -A Modern Approach, 4th Edition, Prentice Hall, 
-3. 
-4. Kevin P. Murphy, Probabilistic Machine Learning- An Introduction, The MIT Press, 2022.
+3. Kevin P. Murphy, Probabilistic Machine Learning- An Introduction, The MIT Press, 2022.
 5. Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, 2006
 
 
