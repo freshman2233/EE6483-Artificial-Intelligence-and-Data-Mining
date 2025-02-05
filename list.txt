@@ -1,0 +1,55 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 A07A-31F5
+D:.
+│  .gitattributes
+│  .gitignore
+│  LICENSE
+│  list.txt
+│  README.md
+│  
+├─1.Exam
+│      .keep
+│      
+├─2.PPT Example
+│      2.1.6.4练习1两个水壶问题.pdf
+│      2.2.1.7练习 2数据还是目标.pdf
+│      2.2.2.2.6回溯示例.pdf
+│      2.2.2.2.7练习 3 在图上回溯.pdf
+│      2.2.2.3.3 示例：广度优先搜索-v2.pdf
+│      2.2.2.4.5示例 深度优先搜索-v2.pdf
+│      2.2.2.7练习 4：广度和深度.pdf
+│      3.4.2.2最佳优先示例-v2.pdf
+│      3.4.3示例：设计启发式方法.pdf
+│      3.4.5.3.1示例：最佳搜索 8 个拼图.pdf
+│      3.4.5.3.3示例：贪心路径.pdf
+│      3.4.5.3.4示例：A星路径.pdf
+│      3.4.5.5练习题.pdf
+│      3.5.3.6示例：nim 游戏的极小极大.pdf
+│      3.5.3.7示例：井字棋的极小极大-Q.pdf
+│      3.5.3.9练习 4：在图 4 所示的树上执行极小极大.pdf
+│      3.5.4 Alpha-Beta 算法.pdf
+│      3.5.4.7示例：Alpha-Beta 修剪.pdf
+│      3.5.4.8练习5-v2.pdf
+│      3.5.4.8练习6-v2.pdf
+│      
+├─3.Understand
+│      .keep
+│      
+├─4.Resource
+│  ├─1.OUTLINE
+│  │      EE6483_OBTL.pdf
+│  │      
+│  ├─2.Textbooks
+│  │      Artificial Intelligence Structures and Strategies for Complex Problem Solving (George F. Luger) (Z-Library).pdf
+│  │      Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville) (Z-Library).pdf
+│  │      Introduction to Data Mining (Pang-Ning Tan,Michael Steinbach and Vipin Kumar) (Z-Library).pdf
+│  │      
+│  └─3.References
+│          Artificial Intelligence. A modern approach (Stuart Russell Peter Norvig) (Z-Library).pdf
+│          Data Mining Concepts and Techniques Third Edition (Jiawei Han, Micheline Kamber, Jian Pei) (Z-Library).pdf
+│          Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
+│          Probabilistic Machine Learning An Introduction (Kevin P. Murphy) (Z-Library).pdf
+│          
+└─README.assets
+        data-sciene-intelligence-artificielle.png
+        

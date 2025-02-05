@@ -1,29 +1,26 @@
 # EE6483 Artificial Intelligence and Data Mining
-# 1.**Course Aims**
+
+# 1.Introduction
+
+This course offers a concise overview of the core theories and techniques in both **Artificial Intelligence** and **Data Mining**, emphasizing **state space representation and search strategies, association rule mining, supervised and unsupervised learning, neural networks, and clustering**. By exploring these methods and their real-world **applications**, students will acquire practical skills to tackle complex problems and uncover valuable insights from data.
+
+This repository serves as a comprehensive resource for students and enthusiasts alike. 
+
+1. **Personal Solutions to Past Exams** – Detailed, step-by-step write-ups of previously tested questions to guide your revision and deepen conceptual understanding.
+2. **PPT Example References** – Walkthroughs of example problems and exercises presented in the lecture slides, clarifying key ideas and methodologies.
+3. **Analysis of Challenging Topics** – In-depth discussions and breakdowns of complex areas, helping you navigate common pitfalls and master advanced concepts.
+
+If you happen to have a GitHub account and find this repository helpful, **please consider giving it a star⭐**.
+
+![data-sciene-intelligence-artificielle](./README.assets/data-sciene-intelligence-artificielle.png)
+
+# 2.**Course Aims**
 
 This course introduces the fundamental theory and concepts of **Artificial intelligence (AI)** and **Data Mining** methods, in particular **state space representation** and **search strategies, association rule mining, supervised learning, classifiers, neural networks, unsupervised learning, clustering analysis**, and their applications in the area of Artificial Intelligence and Data Mining. This can be summarized as: 
 
 1. To understand the concepts of knowledge representation for state space search, strategies for the search. 
-
 2. To understand the basics of a data mining paradigm known as Association Rule Mining and its application to knowledge discovery problems. 
-
 3. To understand the fundamental theory and concepts of supervised learning, unsupervised learning, neural networks, several learning paradigms and its applications
-
-# 2.Intended Learning Outcomes (ILO)
-
-Upon completion of this course, students should be able to :
-
-1. Demonstrate and Explain the use of state representation of problems, and strategies for the 3
-
-search
-
-2. Discuss and Illustrate the concepts of state space search algorithms 
-3. Discuss and Illustrate the concepts of heuristic search algorithms
-4. Explain basic data mining concepts/algorithms for association rule mining 
-5. Explain the basics of machine learning models and algorithms
-6. Apply the fundamental theory and concepts of data mining and AI for wide range of data 
-
-analysis including association, classification, clustering, prediction.
 
 # 3.Course Content
 
@@ -377,7 +374,58 @@ Morgan Kaufmann, 2011, ISBN: 978-0-12-381479-1.
 
 6.稀疏编码 不考
 
-# 6.Disclaimer
+# 6.List of GitHub
+
+```
+├─1.Exam
+│      .keep
+│      
+├─2.PPT Example
+│      2.1.6.4练习1两个水壶问题.pdf
+│      2.2.1.7练习 2数据还是目标.pdf
+│      2.2.2.2.6回溯示例.pdf
+│      2.2.2.2.7练习 3 在图上回溯.pdf
+│      2.2.2.3.3 示例：广度优先搜索-v2.pdf
+│      2.2.2.4.5示例 深度优先搜索-v2.pdf
+│      2.2.2.7练习 4：广度和深度.pdf
+│      3.4.2.2最佳优先示例-v2.pdf
+│      3.4.3示例：设计启发式方法.pdf
+│      3.4.5.3.1示例：最佳搜索 8 个拼图.pdf
+│      3.4.5.3.3示例：贪心路径.pdf
+│      3.4.5.3.4示例：A星路径.pdf
+│      3.4.5.5练习题.pdf
+│      3.5.3.6示例：nim 游戏的极小极大.pdf
+│      3.5.3.7示例：井字棋的极小极大-Q.pdf
+│      3.5.3.9练习 4：在图 4 所示的树上执行极小极大.pdf
+│      3.5.4 Alpha-Beta 算法.pdf
+│      3.5.4.7示例：Alpha-Beta 修剪.pdf
+│      3.5.4.8练习5-v2.pdf
+│      3.5.4.8练习6-v2.pdf
+│      
+├─3.Understand
+│      .keep
+│      
+├─4.Resource
+│  ├─1.OUTLINE
+│  │      EE6483_OBTL.pdf
+│  │      
+│  ├─2.Textbooks
+│  │      Artificial Intelligence Structures and Strategies for Complex Problem Solving (George F. Luger) (Z-Library).pdf
+│  │      Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville) (Z-Library).pdf
+│  │      Introduction to Data Mining (Pang-Ning Tan,Michael Steinbach and Vipin Kumar) (Z-Library).pdf
+│  │      
+│  └─3.References
+│          Artificial Intelligence. A modern approach (Stuart Russell Peter Norvig) (Z-Library).pdf
+│          Data Mining Concepts and Techniques Third Edition (Jiawei Han, Micheline Kamber, Jian Pei) (Z-Library).pdf
+│          Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
+│          Probabilistic Machine Learning An Introduction (Kevin P. Murphy) (Z-Library).pdf
+│          
+└─README.assets
+        data-sciene-intelligence-artificielle.png
+
+```
+
+# 7.Disclaimer
 
 All content in this  is based solely on the contributors' personal work, Internet data.
 All tips are for reference only and are not guaranteed to be 100% correct.
