@@ -38,23 +38,15 @@ Unsupervised Learning and Clustering Analysis.
 
 ## 4.1Textbooks
 
-1. Luger George F, Artificial Intelligence : Structures and Strategies for Complex Problem Solving, 
+1. Luger George F, Artificial Intelligence : Structures and Strategies for Complex Problem Solving, 6 th Edition, Addison-Wesley, 2009. (Q335.L951)
 
-6 th Edition, Addison-Wesley, 2009. (Q335.L951)
+2. Pang-Ning Tan, Michael Steinbach, Vipin Kumar, Introduction to Data Mining: Pearson 2nd Edition, 2019.
 
-2. Pang-Ning Tan, Michael Steinbach, Vipin Kumar, Introduction to Data Mining: Pearson 2nd Edition, 
-
-2019.
-
-3. Ian Goodfellow, Yoshua Bengio and Aaron Courville, Deep Learning, MIT Press, 2016. ISBN: 978-
-
-0262035613 (Q325.5.G651)
+3. Ian Goodfellow, Yoshua Bengio and Aaron Courville, Deep Learning, MIT Press, 2016. ISBN: 978-0262035613 (Q325.5.G651)
 
 ## 4.2 References
 
-1. Jiawei Han, Micheline Kamber and Jian Pei, Data Mining: Concepts and Techniques, 3rd Edition, 
-
-Morgan Kaufmann, 2011, ISBN: 978-0-12-381479-1.
+1. Jiawei Han, Micheline Kamber and Jian Pei, Data Mining: Concepts and Techniques, 3rd Edition, Morgan Kaufmann, 2011, ISBN: 978-0-12-381479-1.
 
 2. S. Russell and P. Norvig, Artificial Intelligence -A Modern Approach, 4th Edition, Prentice Hall, 
 3. Kevin P. Murphy, Probabilistic Machine Learning- An Introduction, The MIT Press, 2022.
