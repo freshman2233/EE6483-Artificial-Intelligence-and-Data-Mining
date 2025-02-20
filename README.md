@@ -82,6 +82,12 @@ Unsupervised Learning and Clustering Analysis.
 
 2.1.1 符号人工智能
 
+2.1.1.1 8 难题
+
+2.1.1.2 汽车诊断问题
+
+2.1.1.3 符号人工智能
+
 2.1.2用搜索算法解决问题
 
 2.1.3知识表示
@@ -90,7 +96,13 @@ Unsupervised Learning and Clustering Analysis.
 
 2.1.3.2示例:8 谜题
 
-2.1.3.3示例:柯尼斯堡的桥梁问题
+2.1.3.3示例：哥尼斯堡七桥问题 
+
+2.1.3.3.1状态空间图
+
+2.1.3.3.2欧拉结论
+
+
 
 2.1.4图
 
@@ -202,7 +214,7 @@ Unsupervised Learning and Clustering Analysis.
 
 3.1搜索策略
 
-3.1.1不知情与知情的搜索策略
+3.1.1无信息搜索策略与有信息搜索策略 
 
 3.2简介:启发式搜索
 
