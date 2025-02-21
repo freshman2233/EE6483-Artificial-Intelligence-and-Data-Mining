@@ -246,9 +246,9 @@ Unsupervised Learning and Clustering Analysis.
 
 3.4.2.3 总结
 
-3.4.3示例:设计启发式方法
+3.4.3示例1
 
-3.4.4设计启发法
+3.4.4示例2
 
 3.4.5最佳搜索
 
