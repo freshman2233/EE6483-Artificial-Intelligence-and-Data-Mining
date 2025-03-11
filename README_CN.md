@@ -1,60 +1,66 @@
-# EE6483 Artificial Intelligence and Data Mining
+# EE6483 人工智能与数据挖掘
 
-# 1.Introduction
+# 1.课程简介
 
-This course offers a concise overview of the core theories and techniques in both **Artificial Intelligence** and **Data Mining**, emphasizing **state space representation and search strategies, association rule mining, supervised and unsupervised learning, neural networks, and clustering**. By exploring these methods and their real-world **applications**, students will acquire practical skills to tackle complex problems and uncover valuable insights from data.
+本课程简要介绍**人工智能（AI）和数据挖掘（Data Mining）**的核心理论与技术，重点涵盖 **状态空间表示与搜索策略、关联规则挖掘、监督学习与无监督学习、神经网络及聚类分析**。通过探索这些方法及其在现实世界中的应用，学生将获得实用技能，以解决复杂问题并从数据中提取有价值的信息。
 
-This repository serves as a comprehensive resource for students and enthusiasts alike. 
+本存储库（repository）为学生和相关爱好者提供了全面的学习资源，包括：
 
-1. **Personal Solutions to Past Exams** – Detailed, step-by-step write-ups of previously tested questions to guide your revision and deepen conceptual understanding.
-2. **PPT Example References** – Walkthroughs of example problems and exercises presented in the lecture slides, clarifying key ideas and methodologies.
-3. **Analysis of Challenging Topics** – In-depth discussions and breakdowns of complex areas, helping you navigate common pitfalls and master advanced concepts.
+1. **历年考试的个人解答** – 详细的分步解析，帮助学生复习并加深对核心概念的理解。
+2. **PPT 示例参考** – 讲义中的示例问题和练习解析，帮助学生理解关键思想和方法论。
+3. **难点分析** – 详细解析复杂概念，帮助学生避开常见误区并掌握高级知识。
 
-If you happen to have a GitHub account and find this repository helpful, **please consider giving it a star⭐**.
+如果您拥有 GitHub 账号，并且觉得本存储库对您有帮助，**欢迎为其点亮一颗⭐Star**。
 
 ![data-sciene-intelligence-artificielle](./README.assets/data-sciene-intelligence-artificielle.png)
 
-# 2.**Course Aims**
+# 2.**课程目标**
 
-This course introduces the fundamental theory and concepts of **Artificial intelligence (AI)** and **Data Mining** methods, in particular **state space representation** and **search strategies, association rule mining, supervised learning, classifiers, neural networks, unsupervised learning, clustering analysis**, and their applications in the area of Artificial Intelligence and Data Mining. This can be summarized as: 
+本课程介绍人工智能（AI）和数据挖掘（Data Mining）的基本理论和概念，特别是状态空间表示与搜索策略、关联规则挖掘、监督学习、分类器、神经网络、无监督学习、聚类分析，以及这些方法在人工智能与数据挖掘领域的应用。其核心目标如下：
 
-1. To understand the concepts of knowledge representation for state space search, strategies for the search. 
-2. To understand the basics of a data mining paradigm known as Association Rule Mining and its application to knowledge discovery problems. 
-3. To understand the fundamental theory and concepts of supervised learning, unsupervised learning, neural networks, several learning paradigms and its applications
-
-# 3.Course Content
-
-Structures and Strategies for State Space Representation & Search. 
-
-Heuristic Search. 
-
-Data Mining Concepts and Algorithms. 
-
-Classification and Prediction methods. 
-
-Unsupervised Learning and Clustering Analysis.
-
-# 4.Reading and References
-
-## 4.1Textbooks
-
-1. Luger George F, Artificial Intelligence : Structures and Strategies for Complex Problem Solving, 6 th Edition, Addison-Wesley, 2009. (Q335.L951)
-
-2. Pang-Ning Tan, Michael Steinbach, Vipin Kumar, Introduction to Data Mining: Pearson 2nd Edition, 2019.
-
-3. Ian Goodfellow, Yoshua Bengio and Aaron Courville, Deep Learning, MIT Press, 2016. ISBN: 978-0262035613 (Q325.5.G651)
-
-## 4.2 References
-
-1. Jiawei Han, Micheline Kamber and Jian Pei, Data Mining: Concepts and Techniques, 3rd Edition, Morgan Kaufmann, 2011, ISBN: 978-0-12-381479-1.
-
-2. S. Russell and P. Norvig, Artificial Intelligence -A Modern Approach, 4th Edition, Prentice Hall, 
-3. Kevin P. Murphy, Probabilistic Machine Learning- An Introduction, The MIT Press, 2022.
-5. Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, 2006
+1. 理解**状态空间搜索**的知识表示概念以及不同的搜索策略。
+2. 理解数据挖掘范式之一——**关联规则挖掘**（Association Rule Mining）的基本原理及其在知识发现中的应用。
+3. 掌握**监督学习、无监督学习、神经网络**等学习范式的基本理论和概念，并了解它们的实际应用。
 
 
 
-# 5.Content in Chinese
+# 3.课程内容
+
+状态空间表示及搜索的结构与策略
+
+启发式搜索（Heuristic Search）
+
+数据挖掘的基本概念与算法
+
+分类（Classification）与预测（Prediction）方法
+
+无监督学习与聚类分析（Clustering Analysis）
+
+# 4.阅读材料与参考文献
+
+## 4.1 教科书
+
+1. **Luger George F**，《人工智能：复杂问题求解的结构与策略》（Artificial Intelligence: Structures and Strategies for Complex Problem Solving），第 6 版，Addison-Wesley，2009。（书号：Q335.L951）
+
+2. **Pang-Ning Tan, Michael Steinbach, Vipin Kumar**，《数据挖掘导论》（Introduction to Data Mining），Pearson，第 2 版，2019。
+
+3. **Ian Goodfellow, Yoshua Bengio, Aaron Courville**，《深度学习》（Deep Learning），MIT Press，2016。ISBN：978-0262035613（书号：Q325.5.G651）
+
+
+## 4.2 参考书目
+
+1. **Jiawei Han, Micheline Kamber, Jian Pei**，《数据挖掘：概念与技术》（Data Mining: Concepts and Techniques），第 3 版，Morgan Kaufmann，2011，ISBN：978-0-12-381479-1。
+
+2. **Stuart Russell, Peter Norvig**，《人工智能：现代方法》（Artificial Intelligence - A Modern Approach），第 4 版，Prentice Hall。
+
+3. **Kevin P. Murphy**，《概率机器学习：入门》（Probabilistic Machine Learning - An Introduction），MIT Press，2022。
+
+4. **Christopher M. Bishop**，《模式识别与机器学习》（Pattern Recognition and Machine Learning），Springer，2006。
+
+
+
+
+# 5.内容
 
 ### Dr. CHEN Lihui
 
@@ -722,13 +728,13 @@ Unsupervised Learning and Clustering Analysis.
 
 ```
 
-# 7.Disclaimer
+# 7.免责声明
 
-All content in this  is based solely on the contributors' personal work, Internet data.
-All tips are for reference only and are not guaranteed to be 100% correct.
-If you have any questions, please submit an Issue or PR.
-In addition, if it infringes your copyright, please contact us to delete it, thank you.
+所有的内容都是基于贡献者的个人工作，互联网数据。
+所有提示仅供参考，不保证100%正确。
+如果您有任何问题，请提交Issue或PR。
+另外，如果侵犯了您的版权，请联系我们删除，谢谢。
 
 
 
-#### Copyright © School of Electrical & Electronic Engineering, Nanyang Technological University. All rights reserved.
+#### 版权所有©南洋理工大学电气与电子工程学院版权所有
