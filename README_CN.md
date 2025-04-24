@@ -900,107 +900,11 @@
 4.7.1 例子1
 4.7.2 例子2
 
-### 5.稀疏编码
-
 
 
 # 6.List of GitHub
 
 ```
-│  .gitattributes
-│  .gitignore
-│  LICENSE
-│  list.txt
-│  README.md
-│  README_CN.md
-│  
-├─1.Exam
-│      .keep
-│      22-S1-Q1.pdf
-│      22-S1-Q2-a.pdf
-│      23-S1-Q1.pdf
-│      23-S1-Q2-(a).pdf
-│      24-S1-Q1.pdf
-│      24-S1-Q2-(a).pdf
-│      新建 Text Document.txt
-│      
-├─2.PPT Example
-│  ├─1.Dr. CHEN Lihui
-│  │  │  2.1.3.1 Example farmer cross river.pdf
-│  │  │  2.1.3.2_8puzzle.pdf
-│  │  │  2.1.3.3 Example The bridge of Konigsberg.pdf
-│  │  │  2.1.6.4练习1：双水壶.pdf
-│  │  │  2.2.1.7练习 2数据还是目标.pdf
-│  │  │  2.2.2.2.6回溯示例.pdf
-│  │  │  2.2.2.2.7练习 3 在图上回溯.pdf
-│  │  │  2.2.2.3.3 示例：广度优先搜索-v2.pdf
-│  │  │  2.2.2.4.5示例 深度优先搜索-v2.pdf
-│  │  │  2.2.2.7练习 4：广度和深度.pdf
-│  │  │  3.3.3 Tic-Tac-Toe Example.pdf
-│  │  │  3.4.1.4 爬山-示例.pdf
-│  │  │  3.4.2.2最佳优先示例-v2.pdf
-│  │  │  3.4.3设计启发式方法-示例1.pdf
-│  │  │  3.4.4设计启发式方法-示例2.pdf
-│  │  │  3.4.5.3.1A星-8谜题.pdf
-│  │  │  3.4.5.3.3示例：贪心路径.pdf
-│  │  │  3.4.5.3.4示例：A星路径.pdf
-│  │  │  3.4.5.5练习3.pdf
-│  │  │  3.5.3.2极小极大算法-NIM游戏.pdf
-│  │  │  3.5.3.3极小极大算法-井字棋-V2.pdf
-│  │  │  3.5.3.5练习 4：极小极大-树.pdf
-│  │  │  3.5.4 Alpha-Beta 算法.pdf
-│  │  │  3.5.4.7示例：Alpha-Beta 修剪.pdf
-│  │  │  3.5.4.8练习5-v2.pdf
-│  │  │  3.5.4.8练习6-v4.pdf
-│  │  │  4.1.2.1讨论：以下活动中的哪一项是数据挖掘任务.pdf
-│  │  │  4.1.6练习4.1-Q1-v3.pdf
-│  │  │  4.1.6练习4.1-Q2.pdf
-│  │  │  4.2.2.3支持度和置信度.pdf
-│  │  │  4.2.2.4含d个项的数据集，总共有3^d-2^(d+1)+1个规则-证明.pdf
-│  │  │  4.2.4.6阿普里奥尔算法—示例1.pdf
-│  │  │  4.2.4.7阿普里奥尔算法—示例2.pdf
-│  │  │  4.2.4.8阿普里奥尔算法—示例3-V2.pdf
-│  │  │  4.2.4.8阿普里奥尔算法—示例3.pdf
-│  │  │  4.2.5.2 FP-树-V6.pdf
-│  │  │  4.2.5.4 练习4.2 FP-Growth and Apriori.pdf
-│  │  │  4.2.6.1 关联规则生成-示例1.pdf
-│  │  │  4.2.6.2 关联规则生成-示例2.pdf
-│  │  │  4.2.6.5 练习4.3.pdf
-│  │  │  4.2.7.1 Lift-V3.pdf
-│  │  │  
-│  │  └─1.ExtraExcercise
-│  │          EX1-Q1.pdf
-│  │          EX1-Q2.pdf
-│  │          EX1-Q3.pdf
-│  │          EX2-Q1.pdf
-│  │          EX2-Q2-Q3.pdf
-│  │          
-│  ├─2.Prof Tan Yap Peng
-│  └─3.Asst Prof Wen Bihan
-├─3.Understand
-│      .keep
-│      4.2.5 FP-Growth算法-理解.pdf
-│      
-├─4.Resource
-│  ├─1.OUTLINE
-│  │      EE6483_OBTL.pdf
-│  │      
-│  ├─2.Textbooks
-│  │      Artificial Intelligence Structures and Strategies for Complex Problem Solving (George F. Luger) (Z-Library).pdf
-│  │      Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville) (Z-Library).pdf
-│  │      Introduction to Data Mining (Pang-Ning Tan,Michael Steinbach and Vipin Kumar) (Z-Library).pdf
-│  │      README_CN.md
-│  │      数据挖掘导论 (Pang-Ning Tan Michael Steinbach Vipin Kumar) (Z-Library).pdf
-│  │      深度学习 (Glancarlo Zaccone, Md. Rezaul Kalm etc.).pdf
-│  │      
-│  └─3.References
-│          Artificial Intelligence. A modern approach (Stuart Russell Peter Norvig) (Z-Library).pdf
-│          Data Mining Concepts and Techniques Third Edition (Jiawei Han, Micheline Kamber, Jian Pei) (Z-Library).pdf
-│          Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
-│          Probabilistic Machine Learning An Introduction (Kevin P. Murphy) (Z-Library).pdf
-│          
-└─README.assets
-        data-sciene-intelligence-artificielle.png
 
 ```
 
