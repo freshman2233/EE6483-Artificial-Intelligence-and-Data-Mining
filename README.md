@@ -1,5 +1,7 @@
 # EE6483 Artificial Intelligence and Data Mining
 
+[中文](./README_CN.md)
+
 # 1.Introduction
 
 This course offers a concise overview of the core theories and techniques in both **Artificial Intelligence** and **Data Mining**, emphasizing **state space representation and search strategies, association rule mining, supervised and unsupervised learning, neural networks, and clustering**. By exploring these methods and their real-world **applications**, students will acquire practical skills to tackle complex problems and uncover valuable insights from data.
@@ -54,671 +56,849 @@ Unsupervised Learning and Clustering Analysis.
 
 
 
-# 5.Content in Chinese
+# 5.Content
 
-### Dr. CHEN Lihui
+## Symbolic Artificial Intelligence and Data Mining
 
-0.每周计划
+## 0. Weekly Plan
 
-1.人工智能历史应用简介
+### 1. Introduction to Historical Applications of Artificial Intelligence
 
-1.1什么是人工智能?
+1.1 What is Artificial Intelligence?
 
-1.2为什么AI
+1.2 Why AI
 
-1.3共同目标
+1.3 Common Goals
 
-1.4简史
+1.4 A Brief History
 
-1.5应用
+1.5 Applications
 
-1.6 总结
+1.6 Summary
 
+### 2. Structure and Strategy of Search
 
+#### 2.1 Knowledge Representation
 
-2.搜索的结构和策略
+2.1.1 Symbolic Artificial Intelligence
 
-2.1知识表示
+2.1.1.1 8 Difficult Problems
 
-2.1.1 符号人工智能
+2.1.1.2 Automotive Diagnostic Problems
 
-2.1.1.1 8 难题
+2.1.1.3 Symbolic Artificial Intelligence
 
-2.1.1.2 汽车诊断问题
+2.1.2 Problem Solving with Search Algorithms
 
-2.1.1.3 符号人工智能
+**2.1.3 Knowledge Representations**
 
-2.1.2用搜索算法解决问题
+2.1.3.1 Example:Farmer Crossing the River
 
-2.1.3知识表示
+2.1.3.2 Example:8 Puzzles
 
-2.1.3.1示例:农夫过河
+2.1.3.3 Example:The Seven Bridges of Königsberg Problem 
 
-2.1.3.2示例:8 谜题
+2.1.3.3.1 State Space Diagrams
 
-2.1.3.3示例：哥尼斯堡七桥问题 
+2.1.3.3.2 Euler's conclusion
 
-2.1.3.3.1状态空间图
+2.1.4 Graphs
 
-2.1.3.3.2欧拉结论
+2.1.5 Tree
 
+2.1.6 State space search
 
+2.1.6.1 Quaternions [N, A, S, GD]
 
-2.1.4图
+2.1.6.2 Solution paths
 
-2.1.5树
+2.1.6.3 Puzzle 8 or 15
 
-2.1.6状态空间搜索
+2.1.6.4 Exercise 1: Double Kettle
 
-2.1.6.1四元组 [N, A, S, GD]
+2.1.6.5 Example-Traveler
 
-2.1.6.2解决路径
+#### 2.2 Search Strategies
 
-2.1.6.3谜题8 or 15
+2.2.1 State Space
 
-2.1.6.4练习1：双水壶
+2.2.1.1 Data-driven search
 
-2.1.6.5例子-旅行商
+2.2.1.2 Goal-driven search
 
+2.2.1.3 Similarities and Differences
 
+2.2.1.4 Mixing
 
-2.2搜索策略
+2.2.1.5 Example:Descent
 
-2.2.1状态空间
+2.2.1.6 Summary:L2 & L3
 
-2.2.1.1数据驱动的搜索
+2.2.1.7 Exercise 2: Data or Targets
 
-2.2.1.2目标驱动的搜索
+2.2.2 Graph Search Implementation
 
-2.2.1.3异同
+2.2.2.1 Why search for diagrams
 
-2.2.1.4混合
+2.2.2.2 Backtracking Search
 
-2.2.1.5示例:后裔
+2.2.2.2.1 Notation for backtracking
 
-2.2.1.6总结:L2 & L3
+2.2.2.2.2 Backtracking procedure
 
-2.2.1.7练习 2:数据还是目标
+2.2.2.2.3 Recursion per node
 
+2.2.2.2.4 Main ideas used in backtracking
 
+2.2.2.2.5 Backtracking algorithm
 
-2.2.2图搜索的实现
+2.2.2.2.6 Backtracking example
 
-2.2.2.1为什么要搜索图表
+2.2.2.2.7 Exercise 3: Backtracking on a Graph
 
-2.2.2.2回溯搜索
+2.2.2.3 BFS breadth-first search
 
-2.2.2.2.1回溯的符号
+2.2.2.3.1 Implementation of breadth-first search
 
-2.2.2.2.2回溯程序
+2.2.2.3.2 Breadth-First Search Algorithm
 
-2.2.2.2.3每个节点递归
+2.2.2.3.3 Example: Breadth-First Search
 
-2.2.2.2.4回溯中使用的主要思想
+2.2.2.3.4 Summary
 
-2.2.2.2.5回溯算法
+2.2.2.3.5 Generalized Priority Search: Open and Closed
 
-2.2.2.2.6回湖示例
+2.2.2.3.6 Limitations of Breadth-First Search
 
-2.2.2.2.7练习 3:在图上回溯
+2.2.2.4 DFS depth-first search
 
+2.2.2.4.1 Depth-first search
 
+2.2.2.4.2 Alternative implementations
 
-2.2.2.3 BFS 广度优先搜索
+2.2.2.4.3 Implementation
 
-2.2.2.3.1 广度优先搜索的实现
+2.2.2.4.4 Algorithms
 
-2.2.2.3.2广度优先搜索算法
+2.2.2.4.5 Example: Depth-first search
 
-2.2.2.3.3 示例:广度优先搜索
+2.2.2.4.6 Alternative Implementations
 
-2.2.2.3.4 总结
+2.2.2.5 Breadth-first vs. depth-first comparison
 
-2.2.2.3.5 广度优先搜索:开和闭
+2.2.2.6 Depth-First Search with Iterative Deepening of DFS-ID
 
-2.2.2.3.6广度优先搜索的限制
+2.2.2.7 Exercise 4: Breadth and Depth
 
+#### 2.3 Summary
 
+### 3. Heuristic Search Games
 
-2.2.2.4 DFS 深度优先搜索
+#### 3.1 Search Strategies
 
-2.2.2.4.1 深度优先搜索
+3.1.1 Search strategy without information vs. search strategy with information 
 
-2.2.2.4.2另一种实现
+#### 3.2 Introduction:Heuristic search
 
-2.2.2.4.3实现
+#### 3.3 Heuristics
 
-2.2.2.4.4算法
+3.3.1 Limitations
 
-2.2.2.4.5示例:深度优先搜索
+3.3.2 Two key components
 
-2.2.2.4.6替代实现
+3.3.3 Tic-Tac-Toe Example
 
+#### 3.4 Heuristic Search Algorithms
 
+3.4.1 Mountain Climbing
 
-2.2.2.5广度优先和深度优先对比
+3.4.1.1 The simplest method
 
+3.4.1.2 Limitations
 
+3.4.1.3 Conventions
 
-2.2.2.6 DFS-ID 迭代深化的深度优先搜索
+3.4.1.4 Examples
 
-2.2.2.7练习 4：广度和深度
+3.4.2 Best-first search
 
+3.4.2.1 Algorithm
 
+3.4.2.2 Example
 
-2.3总结
+3.4.2.3 Summary
 
+3.4.3.1 Heuristics-Example 1
 
+3.4.3.2 Heuristic Design-Example 2
 
-3.启发式搜索游戏
+3.4.4 Design Heuristics
 
-3.1搜索策略
+3.4.5 Best First Search
 
-3.1.1无信息搜索策略与有信息搜索策略 
+3.4.5.1 Greedy best-first search
 
+3.4.5.2 A-Star Algorithm
 
+3.4.5.3 Example
 
-3.2简介:启发式搜索
-
-
-
-3.3启发式方法
-
-3.3.1局限性
-
-3.3.2两个关键组成部分
-
-3.3.3井字棋示例
-
-
-
-3.4启发式搜索算法
-
-3.4.1爬山
-
-3.4.1.1最简单方法
-
-3.4.1.2局限性
-
-3.4.1.3约定
-
-3.4.1.4 示例
-
-
-
-3.4.2最佳优先搜索
-
-3.4.2.1算法
-
-3.4.2.2示例
-
-3.4.2.3总结
-
-
-
-3.4.3.1启发式设计-示例1
-
-3.4.3.2启发式设计-示例2
-
-
-
-3.4.4设计启发式方法
-
-
-
-3.4.5最佳优先搜索
-
-3.4.5.1贪婪最佳搜索
-
-3.4.5.2 A星算法
-
-3.4.5.3示例
-
-3.4.5.3.1A*-8谜题
+3.4.5.3.1A*-8 Puzzle
 
 3.4.5.3.2BFS&DFS&A*
 
-3.4.5.3.3示例:贪心路径
+3.4.5.3.3 Example:Greedy Paths
 
-3.4.5.3.4示例:A星路径
+3.4.5.3.4 Example:A-star paths
 
+3.4.5.4 Properties of Greedy and A*
 
+3.4.5.5 Exercises
 
-3.4.5.4贪婪与 A* 的性质
+3.4.5.6 Summary
 
-3.4.5.5练习题
+3.4.5.7 Summary
 
-3.4.5.6总结
+#### 3.5 Heuristic Search and Games
 
-3.4.5.7总结
+3.5.1 Search and Games
 
+3.5.2 Games and Artificial Intelligence
 
+3.5.2.1 Minimalized Maximal Algorithm 
 
-3.5 启发式搜索和游戏
+3.5.2.2 Game Trees
 
-3.5.1搜索与游戏
+3.5.2.3 Games as Search Problems
 
-3.5.2游戏和人工智能
+3.5.2.4 Example:A Game Tree for Tic-Tac-Toe
 
-3.5.2.1极小化极大算法 
+**3.5.3 The Minimal-Extremely-Great Algorithm
 
-3.5.2.2游戏树
+3.5.3.1 Introduction
 
-3.5.2.3游戏作为搜索问题
+3.5.3.2 The NIM game
 
-3.5.2.4示例:井字游戏的一棵游戏树
+3.5.3.3 Tic-Tac-Toe
 
+3.5.3.4 Properties
 
+**3.5.3.5 Exercise 4: Very Small Very Large-Tree**
 
-3.5.3极小极大算法
+3.5.4 Alpha-Beta Algorithm
 
-3.5.3.1介绍
+3.5.4.1 Beta Pruning
 
-3.5.3.2NIM 游戏
+3.5.4.2 alpha pruning
 
-3.5.3.3井字棋
+3.5.4.3 Summary
 
+3.5.4.4 Key Ideas
 
+3.5.4.5 Algorithm
 
-3.5.3.4性质
+3.5.4.6 Example:Extremely Small Extremely Large Decisions
 
-3.5.3.5练习 4：极小极大-树
+**3.5.4.7 Example:Alpha-Beta Pruning**
 
+3.5.4.8 Exercise 5
 
+3.5.4.9 Exercise 56
 
-3.5.4 Alpha-Beta 算法
+3.5.4.10 Properties
 
-3.5.4.1beta剪枝
+3.5.4.11 Monte Carlo Tree Search
 
-3.5.4.2alpha剪枝
+3.5.4.12 Summary
 
-3.5.4.3总结
+### 4. Introduction to Data Mining and Correlation Analysis
 
-3.5.4.4关键思想
+#### 4.1 Introduction to Data Mining
 
-3.5.4.5算法
+4.1.1 What is data?
 
-3.5.4.6示例:极小极大决策
+4.1.1.1 Data Matrix
 
-3.5.4.7示例:Alpha-Beta 修剪
+4.1.1.2 Transaction data
 
-3.5.4.8练习5
+4.1.1.3 Graph data, genome sequence data
 
-3.5.4.9练习56
+4.1.1.4 Data, Information, Knowledge
 
-3.5.4.10性质
+4.1.1.5 Data, Information, Knowledge, Wisdom
 
-3.5.4.11蒙特卡罗树搜索
+4.1.2 What is data mining?
 
-3.5.4.12总结
+4.1.2.1 Discuss:Which of the following activities is a data mining task
 
+4.1.2.2 Data Mining in Business Intelligence
 
+4.1.2.3 Knowledge Discovery Processes in Databases: A Typical View from Machine Learning and Statistical Perspectives
 
-4.数据挖掘与关联分析导论
+4.1.3 Data Mining Tasks
 
-4.1 数据挖掘简介
+4.1.4 Types of Data Mining = Key Functions
 
-4.1.1什么是数据?
+4.1.4.1 What types of data are mined?
 
-4.1.1.1数据矩阵
+4.1.5 Data Mining Applications
 
-4.1.1.2交易数据
+4.1.5.1 Architecture: Typical Data Mining Systems
 
-4.1.1.3图数据，基因组序列数据
+4.1.5.2 Main problems of data mining
 
-4.1.1.4数据，信息，知识
+4.1.6 Exercise 4.1
 
-4.1.1.5数据，信息，知识，智慧
+#### 4.2 Correlation Analysis
 
-4.1.2什么是数据挖掘?
+4.2.1 Motivation
 
-4.1.2.1讨论:以下活动中的哪一项是数据挖掘任务
+4.2.2 What is association rule mining
 
-4.1.2.2商业智能中的数据挖掘
+4.2.2.1 Basic concepts
 
-4.1.2.3数据库中的知识发现流程:从机器学习和统计学角度的典型视图
+4.2.2.2 More basic concepts
 
-4.1.3数据挖掘任务
+4.2.2.3 Support and confidence level
 
-4.1.4数据挖掘类型=关键功能
+4.2.2.4 Association Rule Mining
 
-4.1.4.1挖掘哪些类型的数据?
+4.2.2.5 Two tasks
 
-4.1.5数据挖掘应用
+4.2.3 Frequent itemset generation
 
-4.1.5.1架构:典型数据挖掘系统
+4.2.4 Apriori Principle
 
-4.1.5.2数据挖掘的主要问题
+4.2.4.1 Principle
 
-4.1.6练习4.1
+4.2.4.2 Pruning
 
+4.2.4.3 Algorithm
 
+4.2.4.4 Principle
 
-4.2关联分析
+4.2.4.5 Generate candidate set
 
-4.2.1动机
+4.2.4.6 Example 1
 
-4.2.2什么是关联规则挖掘
+4.2.4.7 Example 2
 
-4.2.2.1基本概念
+4.2.4.8 Example 3
 
-4.2.2.2更多基本概念
+**4.2.5 The FP-Growth Algorithm**
 
-4.2.2.3支持度和置信度
+4.2.5.1 Algorithm
 
-4.2.2.4关联规则挖掘
+4.2.5.2 FP-Tree
 
-4.2.2.5两个任务
+4.2.5.3 Conditional FP-Tree
 
+4.2.5.4 Algorithm
 
+4.2.5.5 Conditional pattern base
 
-4.2.3频繁项集生成
+4.2.5.6 Principles
 
+4.2.5.7 Conclusion
 
+4.2.5.8 Exercise 4.2
 
-4.2.4阿普里奥里原理
+4.2.6 Association Rule Generation
 
-4.2.4.1原理
+4.2.6.1 Example 1
 
-4.2.4.2剪枝
+4.2.6.2 Example 2
 
-4.2.4.3算法
+4.2.6.3 Pruning
 
-4.2.4.4原理
+4.2.6.4 Association Rule Generation
 
-4.2.4.5生成候选集
+4.2.6.5 Exercise 4.3
 
-4.2.4.6示例1
-
-4.2.4.7示例2
-
-4.2.4.8示例3
-
-
-
-4.2.5 FP-Growth算法
-
-4.2.5.1算法
-
-4.2.5.2FP-树
-
-4.2.5.3条件FP树
-
-4.2.5.4算法
-
-4.2.5.5 条件模式基
-
-4.2.5.6原理
-
-4.2.5.7结论
-
-4.2.5.8 练习4.2
-
-
-
-4.2.6关联规则生成
-
-4.2.6.1 示例1
-
-4.2.6.2 示例2
-
-4.2.6.3剪枝
-
-4.2.6.4关联规则生成
-
-4.2.6.5 练习4.3
-
-
-
-4.2.7关联规则评估
+4.2.7 Association Rule Evaluation
 
 4.2.7.1 Lift
 
-4.2.8总结
+4.2.8 Summary
 
+#### 4.3 Additional Material
 
+4.3.1 Maximum Frequent Item Sets
 
-4.3额外材料
+4.3.2 Closed frequent itemsets
 
-4.3.1最大频繁项集
+4.3.3 Examples
 
-4.3.2封闭频繁项集
+4.3.4 Summary
 
-4.3.3示例
+4.3.5 ARM-oriented deep learning
 
-4.3.4总结
+4.3.6 Hybrid ARM
 
-4.3.5面向ARM的深度学习
+4.3.7 Exercise 4.1
 
-4.3.6混合ARM
+4.3.9 Exercise 4.2
 
-4.3.7 练习4.1
+4.3.10 Exercise 4.3
 
-4.3.9 练习4.2
+## Machine learning
 
-4.3.10 练习4.3
+## 0. General Information
 
+### 1. Introduction to Machine Learning
 
+1.1 Introduction to Machine Learning
 
+1.1.1 Artificial Intelligence
 
+1.1.2 Machine Learning
 
-### Prof Tan Yap Peng
+1.1.3 Deep Learning
 
-0.一般信息
+1.2 Types of Machine Learning
 
-1.机器学习简介
+1.2.1 Supervised Learning
 
-1.1机器学习简介
+1.2.2 Unsupervised learning
 
-1.1.1人工智能
+1.2.3 Reinforcement Learning
 
-1.1.2机器学习
+1.3 A Brief History of Machine Learning
 
-1.1.3深度学习
+1.3.1 Neuronal Models
 
-1.2 机器学习类型
+1.3.2 Perceptrons
 
-1.2.1监督学习
+1.3.3 Backpropagation
 
-1.2.2 无监督学习
+1.3.4 Convolutional Neural Networks
 
-1.2.3 强化学习
+1.3.5 Long-term short-term memory
 
-1.3 机器学习简史
+1.3.6 Support vector machines
 
-1.3.1神经元模型
+1.3.7 lmageNet
 
-1.3.2感知器
+1.4 Image datasets
 
-1.3.3反向传播
+1.5 Applications
 
-1.3.4卷积神经网络
+1.5.1 Examples of machine learning applications
 
-1.3.5长期短期记忆
+### 2. Classification and decision trees
 
-1.3.6支持向量机
+2.1 Introduction
 
-1.3.7lmageNet
+2.2 Typical Classification Methods
 
-1.4 图像数据集
+2.3 Data Samples and Attributes
 
-1.5应用
+2.3.1 Types of Attributes
 
-1.5.1机器学习应用示例
+2.3.1.1 Nominal
 
+2.3.1.2 Ordered
 
+2.3.1.3 Interval
 
+2.3.1.4 Ratio
 
+2.4 Classification Models
 
-2.分类和决策树
+2.4.1 Decision trees
 
-2.1 引言
+2.4.2 Random Forest
 
-2.2典型分类方法
+2.4.2.1 Evaluating Classifier Performance
 
-2.3数据样本与属性
+2.4.2.1.1 Proper nouns
 
-2.3.1属性类型
+2.4.2.1.2 Examples
 
-2.3.1.1名义
+2.4.2.1.3 Other aspects
 
-2.3.1.2有序
+2.4.2.1.4 Data Segmentation
 
-2.3.1.3区间
+2.5 Summary
 
-2.3.1.4比率
+### 3. Nearest Neighbor Classifiers and Support Vector Machines
 
-2.4分类模型
+#### 3.1 Nearest Neighbor Classifiers
 
-2.4.1决策树
+3.1.1 K Nearest Neighbor Classifier
 
-2.4.2随机森林
+3.1.2 Dissimilarity and similarity measures
 
-2.4.2.1评估分类器性能
+3.1.2.1 Minkowski distance
 
-2.4.2.1.1专有名词
+3.1.2.2 Cosine Similarity
 
-2.4.2.1.2例子
+3.1.3 Picture examples
 
-2.4.2.1.3其他方面
+#### 3.2 Support Vector Machines
 
-2.4.2.1.4数据划分
+3.2.1 Hyperplane
 
-2.5总结
+3.2.2 Intervals
 
+3.2.3 Linear decision boundary
 
+3.2.4 Normal vectors
 
+3.2.5 Labeling categories
 
+3.2.6 Distance and support vectors
 
+3.2.7 Lagrange multiplier method
 
+3.2.8 Indivisible cases
 
-3.最近邻分类器和支持向量机
+3.2.9 Multi-category classification
 
+#### 3.3 Summary
 
+#### 3.4 Linear Support Vector Machine Models
 
+#### 3.5 SVM Example
 
+### 4. Neural Networks
 
-4.神经网络
+#### 4.1 Introduction
 
+4.1.1 Outline
 
+4.1.2 Key Terms
 
+4.1.3 Neural Networks
 
+#### 4.2 Perceptual machines
 
-5.附加练习作业和解答
+4.2.1 Inputs and outputs
 
-### Asst Prof Wen Bihan
+4.2.2 Models
 
-0.迷你项目
+4.2.3 Examples
 
-1.聚类和回归
+4.2.3.1 Linear categorizable classifications
 
-2.正则化和优化
+4.2.3.2 Linear Unclassifiable Classification
 
-3.PCA 和贝叶斯推理
+#### 4.3 Neural Networks
 
-4.总结和更多示例-之前
+4.3.1 Multilayer perceptron
 
-5.总结和更多示例
+4.3.2 Feedforward neural network
 
-6.稀疏编码 不考
+4.3.3 Examples
+
+4.3.4 Activation functions
+
+4.3.4.1 Linear function
+
+4.3.4.2 Sigma function
+
+4.3.4.3 tanh function
+
+4.3.4.4Sign function
+
+4.3.4.5 ReLu function
+
+4.3.4.6 Leaky ReLu function
+
+4.3.4.7 Demo
+
+4.3.5 Backpropagation
+
+4.3.5.1 Gradient descent
+
+4.3.5.2 Backpropagation algorithm
+
+4.3.5.2.1 Example
+
+#### 4 Convolutional Neural Networks
+
+4.4.1 Fully connected neural networks
+
+4.4.2 Example
+
+4.4.3 Overfitting
+
+4.4.4 Definition
+
+4.4.5 Convolution Demonstration
+
+4.4.6 Convolution and feature maps
+
+4.4.6.1 Example
+
+4.4.7 Weights
+
+4.4.8 Step size
+
+4.4.9 Pooling
+
+4.4.10 Regularization
+
+4.4.11 Convolutional layers
+
+4.4.12 Famous convolutional neural networks
+
+4.4.12.1 LetNet-5
+
+4.4.12.2 ImageNet
+
+4.4.12.3 AlexNet
+
+4.4.12.4 Visualizing Convolutional Networks
+
+4.4.12.5 GoogLeNet
+
+4.4.12.6 ResiduaINet
+
+4.4.12.7 ImageNet top 5
+
+#### 4.5 Recurrent Neural Networks
+
+4.5.1 Example
+
+#### 4.6 Auto-encoder
+
+4.6.1 Application
+
+#### 4.7 Generating Adversarial Networks
+
+4.7.1 Example
+
+4.7.1.1 Cyclically consistent adversarial networks
+
+4.7.1.2 Style generating adversarial network
+
+#### 4.8 Transformers
+
+4.8.1 Encoders
+
+4.8.2 Decoder
+
+#### 4.9 Diffusion Models
+
+#### 4.10 Summary
+
+## Data processing
+
+## 0. Mini-projects
+
+## 1. Clustering and Regression
+
+#### 1.1 Mini-project
+
+#### 1.2 Clustering
+
+1.2.1 Introduction
+1.2.1.1 Outline
+1.2.1.2 Problem
+1.2.1.3 Classification
+1.2.1.4 Classification to Clustering
+1.2.2 Definitions
+1.2.2.1 Unsupervised Learning
+1.2.2.2 Clustering
+1.2.2.3 Cluster
+1.2.2.3 Classification vs. Clustering
+1.2.3 Similarity
+1.2.3.1 Distance metrics/indicators
+1.2.3.1.1 Distance d
+1.2.3.1.2 Non-negativity
+1.2.3.1.3 Triangular inequalities
+1.2.3.1.4 Symmetry
+1.2.3.1.5 Examples
+1.2.3.1.5.1 Euclidean
+1.2.3.1.5.2 Manhattan
+1.2.3.1.5.3 Upper bound of infinity
+1.2.3.1.5.4 Examples
+1.2.4 Algorithms
+1.2.4.1 Partitioning
+1.2.4.2 Hierarchy
+1.2.4.3 K-means
+1.2.4.3.1 Example 1
+1.2.4.3.2 Example 2
+1.2.4.3.3 Example 3
+1.2.4.3.4 Cost function
+1.2.4.3.5 Advantages and Disadvantages
+1.2.4.4 Hierarchical clustering
+1.2.4.4.1 Definitions
+1.2.4.4.2 Steps
+1.2.4.4.3 Visualization
+1.2.4.4.4 Strengths
+1.2.4.4.5 Distance
+1.2.4.4.5.1 Single chain
+1.2.4.4.5.2 Full chain
+1.2.4.4.5.3 Even chaining
+1.2.4.4.5.4 Center of mass
+1.2.4.4.6 Distance-minimizing clusters
+1.2.4.4.6.1 Steps
+1.2.4.4.6.2 Tree diagrams
+1.2.4.4.7 Example
+1.2.4.5 K-means and Hierarchical Clustering
+1.2.5 Summary
+
+#### 1.3 Regression
+
+1.3.1 Introduction
+1.3.1.1 Outline
+1.3.1.2 Problems
+1.3.1.3 Classification
+1.3.1.4 Classification to Regression
+1.3.2 Linear Regression
+1.3.2.1 Definitions
+1.3.2.2 Example
+1.3.2.3 Derivation
+1.3.3 Summary
+
+
+
+### 2. Regularization and Optimization
+
+#### 2.1 Review
+
+2.1.1 K-means
+2.1.2 HAC
+2.1.2.1 Examples
+2.1.3 Linear regression
+
+#### 2.2 Introduction
+
+2.2.1 Outline
+2.2.2 Problems
+
+#### 2.3 Supervised vs. Unsupervised Learning
+
+2.3.1 Types
+2.3.2 Classification
+2.3.3 Supervised Learning Framework
+2.3.3.1 Mathematical Representation
+2.3.4 Learning Effects
+2.3.4.1 Overfitting
+2.3.4.2 Underfitting
+2.3.4.3 Errors
+2.3.4.4 Challenges
+2.3.4.4.1 Exact Models
+2.3.4.4.2 Data Distribution
+2.3.4.5 Practice
+2.3.4.5.1 Assumptions
+2.3.4.5.2 Empirical Risk Minimization
+2.3.5 Learning Error
+2.3.5.1 Error
+2.3.5.1.1 Deviation
+2.3.5.1.2 Variance
+2.3.5.1.3 Expectation error
+2.3.5.2 Model complexity
+2.3.5.2.1 Simple-high error
+2.3.5.2.2 Complex - high variance
+2.3.5.2.3 Balanced
+
+#### 2.4 Statistical Learning (not examined)
+
+2.4.1 Deriving the Expected Error
+2.4.2 Statistical Learning
+
+#### 2.5 Overfitting and Underfitting
+
+2.5.1 Good Models
+2.5.2 Simple and complex models
+2.5.3 Testing for Error
+2.5.4 Tradeoffs
+
+#### 2.6 Optimization and Regularized Learning
+
+2.6.1 Validation Sets
+2.6.2 Model Training Diagnostics
+2.6.2.1 Learning Rate
+2.6.2.2 Regularization
+2.6.2.2.1 Dropout
+2.6.2.2.2 Early Stopping
+2.6.2.2.3 Weight Sharing
+2.6.2.3 Solutions
+2.6.3 Data Enhancement
+2.6.3.1 Geometry
+2.6.3.2 Photometry
+2.6.3.3 Other
+2.6.4 Solutions
+
+#### 2.7 Summary
+
+
+
+### 3. PCA and Bayesian Inference
+
+#### 3.1 Review
+
+3.1.1 Bias and Variance
+3.1.2 Overfitting and Underfitting
+3.1.3 Regularization
+
+#### 3.2 Dimensionality Reduction
+
+3.2.1 Outline
+3.2.2 Problems
+
+#### 3.3 Unsupervised Learning
+
+3.3.1 Clustering vs. dimensionality reduction
+3.3.2 Dimensionality reduction
+3.3.3 Objectives
+3.3.4 Causes
+
+#### 3.4 Principal Component Analysis
+
+3.4.2 Definitions
+3.4.2 Optimization
+3.4.3 Steps
+3.4.4 Examples
+3.4.5 Derivation
+3.4.6 Examples
+
+#### 3.5 Summary
+
+#### 3.6 Bayesian Inference
+
+3.6.1 Outline
+3.6.2 Problems
+3.6.3 Probability
+3.6.4 Probability theory
+3.6.5 Joint and conditional probability
+3.6.6 Bayes' Theorem
+3.6.7 Examples
+3.6.7.1 Example 1
+3.6.7.2 Example 2
+3.6.7.3 Example 3
+3.6.7.4 Example 4
+3.6.8 Plain Bayes
+3.6.9 Example
+3.6.10 Summary
+
+
+
+### 4. Summary
+
+4.1 Types of Supervision
+4.1.1 Supervised to Unsupervised
+4.2 Clustering
+4.2.1 Clustering Algorithms
+4.2.2 K-means
+4.2.3 HAC
+4.2.3.1 HAC example
+4.3 Linear Regression
+4.4 PCA
+4.5 Deviation and Variance
+4.6 Overfitting and Underfitting
+4.6.1 Examples
+4.7 Bayesian Inference
+4.7.1 Example 1
+4.7.2 Example 2
+
+Translated with DeepL.com (free version)
 
 # 6.List of GitHub
 
 ```
-│  .gitattributes
-│  .gitignore
-│  LICENSE
-│  list.txt
-│  README.md
-│  README_CN.md
-│  
-├─1.Exam
-│      .keep
-│      22-S1-Q1.pdf
-│      22-S1-Q2-a.pdf
-│      23-S1-Q1.pdf
-│      23-S1-Q2-(a).pdf
-│      24-S1-Q1.pdf
-│      24-S1-Q2-(a).pdf
-│      新建 Text Document.txt
-│      
-├─2.PPT Example
-│  ├─1.Dr. CHEN Lihui
-│  │  │  2.1.3.1 Example farmer cross river.pdf
-│  │  │  2.1.3.2_8puzzle.pdf
-│  │  │  2.1.3.3 Example The bridge of Konigsberg.pdf
-│  │  │  2.1.6.4练习1：双水壶.pdf
-│  │  │  2.2.1.7练习 2数据还是目标.pdf
-│  │  │  2.2.2.2.6回溯示例.pdf
-│  │  │  2.2.2.2.7练习 3 在图上回溯.pdf
-│  │  │  2.2.2.3.3 示例：广度优先搜索-v2.pdf
-│  │  │  2.2.2.4.5示例 深度优先搜索-v2.pdf
-│  │  │  2.2.2.7练习 4：广度和深度.pdf
-│  │  │  3.3.3 Tic-Tac-Toe Example.pdf
-│  │  │  3.4.1.4 爬山-示例.pdf
-│  │  │  3.4.2.2最佳优先示例-v2.pdf
-│  │  │  3.4.3设计启发式方法-示例1.pdf
-│  │  │  3.4.4设计启发式方法-示例2.pdf
-│  │  │  3.4.5.3.1A星-8谜题.pdf
-│  │  │  3.4.5.3.3示例：贪心路径.pdf
-│  │  │  3.4.5.3.4示例：A星路径.pdf
-│  │  │  3.4.5.5练习3.pdf
-│  │  │  3.5.3.2极小极大算法-NIM游戏.pdf
-│  │  │  3.5.3.3极小极大算法-井字棋-V2.pdf
-│  │  │  3.5.3.5练习 4：极小极大-树.pdf
-│  │  │  3.5.4 Alpha-Beta 算法.pdf
-│  │  │  3.5.4.7示例：Alpha-Beta 修剪.pdf
-│  │  │  3.5.4.8练习5-v2.pdf
-│  │  │  3.5.4.8练习6-v4.pdf
-│  │  │  4.1.2.1讨论：以下活动中的哪一项是数据挖掘任务.pdf
-│  │  │  4.1.6练习4.1-Q1-v3.pdf
-│  │  │  4.1.6练习4.1-Q2.pdf
-│  │  │  4.2.2.3支持度和置信度.pdf
-│  │  │  4.2.2.4含d个项的数据集，总共有3^d-2^(d+1)+1个规则-证明.pdf
-│  │  │  4.2.4.6阿普里奥尔算法—示例1.pdf
-│  │  │  4.2.4.7阿普里奥尔算法—示例2.pdf
-│  │  │  4.2.4.8阿普里奥尔算法—示例3-V2.pdf
-│  │  │  4.2.4.8阿普里奥尔算法—示例3.pdf
-│  │  │  4.2.5.2 FP-树-V6.pdf
-│  │  │  4.2.5.4 练习4.2 FP-Growth and Apriori.pdf
-│  │  │  4.2.6.1 关联规则生成-示例1.pdf
-│  │  │  4.2.6.2 关联规则生成-示例2.pdf
-│  │  │  4.2.6.5 练习4.3.pdf
-│  │  │  4.2.7.1 Lift-V3.pdf
-│  │  │  
-│  │  └─1.ExtraExcercise
-│  │          EX1-Q1.pdf
-│  │          EX1-Q2.pdf
-│  │          EX1-Q3.pdf
-│  │          EX2-Q1.pdf
-│  │          EX2-Q2-Q3.pdf
-│  │          
-│  ├─2.Prof Tan Yap Peng
-│  └─3.Asst Prof Wen Bihan
-├─3.Understand
-│      .keep
-│      4.2.5 FP-Growth算法-理解.pdf
-│      
-├─4.Resource
-│  ├─1.OUTLINE
-│  │      EE6483_OBTL.pdf
-│  │      
-│  ├─2.Textbooks
-│  │      Artificial Intelligence Structures and Strategies for Complex Problem Solving (George F. Luger) (Z-Library).pdf
-│  │      Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville) (Z-Library).pdf
-│  │      Introduction to Data Mining (Pang-Ning Tan,Michael Steinbach and Vipin Kumar) (Z-Library).pdf
-│  │      README_CN.md
-│  │      数据挖掘导论 (Pang-Ning Tan Michael Steinbach Vipin Kumar) (Z-Library).pdf
-│  │      深度学习 (Glancarlo Zaccone, Md. Rezaul Kalm etc.).pdf
-│  │      
-│  └─3.References
-│          Artificial Intelligence. A modern approach (Stuart Russell Peter Norvig) (Z-Library).pdf
-│          Data Mining Concepts and Techniques Third Edition (Jiawei Han, Micheline Kamber, Jian Pei) (Z-Library).pdf
-│          Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
-│          Probabilistic Machine Learning An Introduction (Kevin P. Murphy) (Z-Library).pdf
-│          
-└─README.assets
-        data-sciene-intelligence-artificielle.png
 
 ```
 
